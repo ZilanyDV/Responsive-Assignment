@@ -1,0 +1,366 @@
+/* font style */
+*{
+    font-family: 'Mulish', sans-serif; 
+}
+.body{
+    margin: 52px 135px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Sheared Style */
+.button-common{
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+.common-color{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.common-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+/* nav bar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.Ex{
+   color: #131318; 
+}
+.world{
+    color: #FF5400;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1.23rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+.Home{
+    color: #FF5400;
+}
+/* Banner Section Style */
+.banner{
+    width: 100%;
+    height: 500px;
+    /* background-color: bisque; */
+    background-image: url(/Images/Group\ 13\ .png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner-title{
+    padding-top: 106px;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+.button{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px 84px 16px 16px;
+    border: none;
+}
+
+/* Main Section Style */
+.section1{
+    display: flex;
+    margin-top: 100px;
+}
+.section1-image{
+    /* width: 550px;
+    height: 550px; */
+    padding-left: 50px;
+}
+.section1-description{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.section1-list{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.section1-last{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+main li{
+    margin-bottom: 10px;
+}
+.section2-description{
+    text-align: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+.row img{
+    width: 100%;
+}
+.row2{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.row2 img{
+    width: 100%;
+}
+.row3 img{
+    width: 100%;
+}
+.row3{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.row-container{
+    margin-bottom: 0px;
+}
+.section3-container{
+    text-align: center;
+    margin-top: 100px;
+}
+.card1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    
+    height: 284px;
+    padding-left: 32px;
+}
+.card-title{
+    padding: 128px 320px 0px 0px;
+}
+.card2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    height: 284px;
+    padding-left: 32px;
+}
+.card-row1{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.card-row2{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 284px;
+    padding-left: 32px;
+    width: 570px;
+    margin: 24px auto;
+}
+.section4-container{
+    display: flex;
+    margin-top: 100px;
+}
+.card4-description{
+    margin-right: 24px;
+    margin-top: 0px;
+}
+.section5-container{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+.hr{
+    width: 80%;
+}
+.name input{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 16px 220px 16px 20px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.button5{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 14px 175px 13px 160px;
+    margin: 24px 0px 40px 0px; 
+
+}
+.section5{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 510px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-last{
+    text-align: center;
+    margin-top: 100px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* footer section */
+footer{
+    margin: 0px auto;
+}
+.footer-image{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 110px 600px 0px 620px;
+}
+.footer-paragraph{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.footer-images{  
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-images img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+/* media section */
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+        margin-left: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li{
+        margin-bottom: 15px;
+    }
+    .body{
+        margin: 20px;
+    }
+    .button-container{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        padding: 30px 30px;
+    }
+    .banner-title{
+        padding-top: 0px;
+        font-size: 3rem;
+    }
+    .banner-description{
+        margin-top: 10px;
+    }
+    .section1{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .section1-image{
+        margin-top: 20px;
+        padding-left: 0px;    
+    }
+    .section1-image img{
+        width: 100%;
+        height: 440px;
+    }
+    .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row-container img{
+        height: 200px;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .card-row1{
+        flex-direction: column;
+    }
+    .card-title{
+        padding: 0px;
+    }
+    .card-row2{
+        width: 320px;
+    }
+    .common-color{
+        width: 100%;
+    }
+    .section4-container{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .img4{
+        width: 100%;
+    }
+    .card4-description{
+        margin-bottom: 30px;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .name input{
+        padding: 16px;
+    }
+    .button5{
+        padding: 16px 65px;
+    }
+    .section5 img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-image{
+        text-align: center;
+        padding: 40px 40px 30px 90px;
+    }
+}
+
